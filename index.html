@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="navegacion">                    
+            <div class="navegacion__set">            
+                <div class="colores">
+                    <div class="colores__contenido">
+                        <i class="colores__icono fa-solid fa-palette"></i>
+                    </div>
+
+                    <ul class="colores__lista">
+                        <li data-id="#EB4A4A" class="colores__item"></li>
+                        <li data-id="#29D882" class="colores__item"></li>
+                        <li data-id="#64ffda" class="colores__item"></li>
+                        <li data-id="#AD00FF" class="colores__item"></li>
+                        <li data-id="#4542FF" class="colores__item"></li>
+                    </ul>
+                </div>
+
+                <nav id="navegacion-menu" class="navegacion__menu">
+                    <ul class="navegacion__lista">
+                        <li class="navegacion__item">
+                            <a class="navegacion__enlace" href="#sobre-mi">Sobre Mi</a>
+                        </li>
+                        <li class="navegacion__item">
+                            <a class="navegacion__enlace" href="#formacion">Educación</a>
+                        </li> 
+                        <li class="navegacion__item">
+                            <a class="navegacion__enlace" href="#skills">Habilidades</a>
+                        </li>
+                        <li class="navegacion__item">
+                            <a class="navegacion__enlace" href="#certificados">Certificados</a>
+                        </li>                            
+                        <li class="navegacion__item">
+                            <a class="navegacion__enlace" href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="navegacion__item">
+                            <a class="navegacion__enlace" href="#contacto">Contacto</a>
+                        </li>      
+                        <li class="navegacion__item">
+                            <a class="navegacion__enlace" href="index.html"><img src="img/español.png" width="30px"></a>
+                            <a class="navegacion__enlace" href="En/index.html"><img src="img/ingles.png" width="30px"></a>                            
+                        </li>
+                    </ul>
+                    <div id="navegacion-close" class="navegacion__close">
+                        <i  class="fa-solid fa-xmark"></i>
+                    </div>
+                </nav>
+                <div id="navegacion-toggle" class="navegacion__toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="home-section">        
+            <div class="redes">
+                <p class="redes__titulo">Mis redes</p>
+
+                <ul class="redes__lista">
+                    <li class="redes__item">
+                        <a class="redes__enlace" href="https://github.com/GonzaloChimal" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="redes__item">
+                        <a class="redes__enlace" href="https://www.linkedin.com/in/gonzalo-duran-chimal/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="home">
+                <div class="home__contenido">
+                    <h1 class="home__texto">Hola, mi nombre es</h1>
+                    <h2 class="home__nombre">Gonzalo Duran Chimal</h2>
+                    <h3 class="home__descripcion">Soy <span>Ingeniero en Sistemas Computacionales</span></h3>
+
+                    <p class="home__parrafo">Me gusta el área de análisis de datos y programación, busco aprender todos los días y desarrollar nuevas habilidades.</p>
+                </div>
+            </div>
+            <a class="scroll" href="#sobre-mi">Scroll<i class="scroll-icono fa-solid fa-arrow-down"></i></a>
+         </section>
+
+        <section id="sobre-mi" class="contenedor-seccion">
+            <div class="about">
+                <h2 class="seccion-titulo">Sobre <span>Mi</span></h2>
+
+                <div class="about__descripcion">
+                    <img class="about__img" src="img/profile.jpg" alt="perfil-gonzalo">
+
+                    <div class="about__contenido">                    
+                        <h3 class="about__subtitulo">Mi nombre es Gonzalo Duran Chimal, soy ingeniero en Sistemas Computacionales.</h3>
+                        <p class="about__parrafo">Soy de Veracruz, México. Me gusta todo lo relacionado al análisis de datos y la programación. Soy una persona creativa, responsable y me encanta trabajar en equipo, me gusta aportar ideas y ayudar en las tareas diarias.</p>
+
+                        <ul class="about__lista">
+                            <li class="about__item"><i class="fa-regular fa-circle-check about__icono"></i>Trabajo en equipo</li>
+                            <li class="about__item"><i class="fa-regular fa-circle-check about__icono"></i>Resolucion de problemas</li>
+                            <li class="about__item"><i class="fa-regular fa-circle-check about__icono"></i>Adaptabilidad</li>
+                            <li class="about__item"><i class="fa-regular fa-circle-check about__icono"></i>Responsabilidad</li>
+                        </ul>
+                        
+                        <ul class="about__cv">
+                            <a href="CV/Gonzalo Duran Chimal CV - Español.pdf" class="btn about__btn">Descargar CV (Español)</a>
+                            <a href="CV/Gonzalo Duran Chimal CV - English.pdf" class="btn about__btn">Descargar CV (Inglés)</a>                        
+                        </ul>
+                </div>               
+            </div>
+        </section>
+
+        <section id="formacion" class="contenedor-seccion">
+            <div class="formacion">
+                <h2 class="seccion-titulo">Educación</h2>
+
+                <div class="formacion__descripcion">
+                    <div class="formacion__set">
+                        <div class="formacion__subtitulo">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <h3>Certificado Profesional - Análisis de datos</h3>
+                        </div>
+
+                        <div class="formacion__contenido">
+                            <p><i class="fa-solid fa-school"></i>Google - Coursera</p>
+                            <span><i class="fa-solid fa-calendar"></i>2022 - En curso</span>
+                        </div>                        
+                    </div>
+
+                    <div class="formacion__set">
+                        <div class="formacion__subtitulo">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <h3>Oracle Next Education (ONE)</h3>
+                        </div>
+
+                        <div class="formacion__contenido">
+                            <p><i class="fa-solid fa-school"></i>Oracle - Alura Latam</p>
+                            <span><i class="fa-solid fa-calendar"></i>2021 - En curso</span>
+                        </div>                        
+                    </div>
+                    
+                    <div class="formacion__set">
+                        <div class="formacion__subtitulo">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <h3>Ingeniería en Sistemas Computacionales</h3>
+                        </div>
+
+                        <div class="formacion__contenido">
+                            <p><i class="fa-solid fa-school"></i>TecNM - Campus Instituto Tecnológico de Veracruz</p>
+                            <span><i class="fa-solid fa-calendar"></i>2010 - 2016</span>
+                        </div>                        
+                    </div>     
+                </div>                
+            </div>
+        </section>
+
+        <section id="skills" class="contenedor-seccion">
+            <div class="skills">
+                <h2 class="seccion-titulo">Habilidades</h2>
+
+                <div class="skills__descripcion">
+                    <div class="skills__set">
+                        <img src="img/html.svg" alt="html">
+                        <h3 class="skills__texto">html</h3>
+                    </div>
+                    <div class="skills__set">
+                        <img src="img/css3.svg" alt="css">
+                        <h3 class="skills__texto">css</h3>
+                    </div>
+                    <div class="skills__set">
+                        <img src="img/javascript.svg" alt="javascript">
+                        <h3 class="skills__texto">javascript</h3>
+                    </div>
+                    <div class="skills__set">
+                        <img src="img/java.svg" alt="java">
+                        <h3 class="skills__texto">java</h3>
+                    </div>
+                    <div class="skills__set">
+                        <img src="img/github.svg" alt="github">
+                        <h3 class="skills__texto">github</h3>
+                    </div>
+                    <div class="skills__set">
+                        <img src="img/bootstrap.svg" alt="bootstrap">
+                        <h3 class="skills__texto">bootstrap</h3>
+                    </div>                    
+                    <div class="skills__set">
+                        <img src="img/mysql.svg" alt="mysql">
+                        <h3 class="skills__texto">mysql</h3>
+                    </div>             
+                    <div class="skills__set">
+                        <img src="img/power BI logo.png" alt="git">
+                        <h3 class="skills__texto">Power BI</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificados" class="contenedor-seccion">
+            <div class="formacion">
+                <h2 class="seccion-titulo">Certificados de cursos</h2>
+
+                <div class="certifacte__descripcion">
+                    <div class="certifacte__set">
+                        <a href="https://drive.google.com/drive/folders/10NogqJ1DW9O1dn9YlOPpZvQJYf7LJbR1?usp=sharing">
+                            <img src="img/sololearn.png" alt="SoloLearn">
+                            <h3 class="certifacte__texto">SoloLearn</h3>
+                        </a>
+                    </div>
+                    <div class="certifacte__set">
+                        <a href="https://drive.google.com/drive/folders/1Brpytml8I8IRNop2UtbtmBC8rn47_xrl?usp=sharing">
+                            <img src="img/huawei.jpg" alt="Huawei">
+                            <h3 class="certifacte__texto">Huawei Learning X</h3>
+                        </a>
+                    </div>
+                    <div class="certifacte__set">
+                        <a href="https://drive.google.com/drive/folders/1YRXIUuLBtjlzQFLgf5rCL0kI6LMdnNK2?usp=sharing">
+                            <img src="img/IBM.jpg" alt="IBM">
+                            <h3 class="certifacte__texto">IBM</h3>
+                        </a>
+                    </div>
+                    <div class="certifacte__set">
+                        <a href="https://drive.google.com/drive/folders/15cWwksDLYnYVI5VT_DwNY01wQNVQ2m-B?usp=sharing">
+                            <img src="img/oracle.png" alt="Oracle">
+                            <h3 class="certifacte__texto">Oracle</h3>
+                        </a>
+                    </div>
+                    <div class="certifacte__set">
+                        <a href="https://drive.google.com/drive/folders/1aMINCUEHve1GaFd3mUya0cd0NRvQBBdR?usp=sharing">
+                            <img src="img/google.png" alt="Google">
+                            <h3 class="certifacte__texto">Google</h3>
+                        </a>
+                    </div>                    
+                    <div class="certifacte__set">
+                        <a href="https://docs.microsoft.com/en-us/users/gonzaloduranchimal-2944/collections/443h75jrm0oyn">
+                            <img src="img/Microsoft.png" alt="Microsoft">
+                            <h3 class="certifacte__texto">Microsoft</h3>
+                        </a>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="contenedor-seccion">
+            <h2 class="seccion-titulo">Proyectos</h2>
+
+            <div class="proyectos">                
+                <div class="proyectos__set">
+                    <div class="proyectos__contenido">
+                        <h3>Encriptador</h3>
+                        <p>Aplicacion web para guardar un mensaje secreto o bien descifrarlo</p>
+
+                        <div class="proyectos__enlaces">
+                            <a class="btn" target="_blank" href="https://github.com/GonzaloChimal/Challenge01-Encriptador">Repositorio</a>
+                            <a class="btn" target="_blank" href="https://gonzalochimal.github.io/Challenge01-Encriptador/">Demo</a>
+                        </div>
+                    </div>
+                    <img class="proyectos__img" src="img/encriptador-one.png" alt="encriptador">
+                </div>
+
+                <div class="proyectos__set">
+                    <div class="proyectos__contenido">
+                        <h3>Ahorcado</h3>
+                        <p>Juego del ahorcado para ingresar letras hasta completar la palabra</p>
+
+                        <div class="proyectos__enlaces">
+                            <a class="btn" target="_blank" href="https://github.com/GonzaloChimal/Challenge02-ahorcado">Repositorio</a>
+                            <a class="btn" target="_blank" href="https://gonzalochimal.github.io/Challenge02-ahorcado/">Demo</a>
+                        </div>
+                    </div>
+
+                    <img class="proyectos__img" src="img/ahorcado-one.png" alt="encriptador">
+                </div>
+
+                <div class="proyectos__set">
+                    <div class="proyectos__contenido">
+                        <h3>Dashboars Power BI</h3>
+                        <p>Repositorio de dashboards en Power BI, los datos de cada proyecto son Open Source del Internet</p>
+
+                        <div class="proyectos__enlaces">
+                            <a class="btn" target="_blank" href="https://github.com/GonzaloChimal/projects_PowerBI">Repositorio</a>
+                        </div>
+                    </div>
+
+                    <img class="proyectos__img" src="img/Power BI.png" alt="encriptador">
+                </div>                
+            </div>
+        </section>
+
+        <section id="contacto" class="contenedor-seccion">
+
+            <h2 class="seccion-titulo">Contacto</h2>
+
+            <div class="contacto">
+
+                <div class="contacto__info">
+
+                    <h3 class="contacto__info-titulo">Gonzalo Duran Chimal</h3>
+                    <p class="contacto__info-texto">Ingeniero en Sistemas Computacionales - Análista de datos y Desarrollador Web</p>
+
+                    <div class="contacto__set">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Veracruz, México</p>
+                    </div>
+
+                    <div class="contacto__set">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>duran.chimal.gonzalo.1992@gmail.com</p>
+                    </div>
+
+                    <div class="contacto__set">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(+52) 229 129 2003</p>
+                    </div>
+
+                    <div class="contacto-redes">
+        
+                        <ul class="contacto-redes__lista">
+        
+                            <li class="contacto-redes__item">
+                                <a class="contacto-redes__enlace" href="https://github.com/GonzaloChimal" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </li>
+        
+                            <li class="contacto-redes__item">
+                                <a class="contacto-redes__enlace" href="https://www.linkedin.com/in/gonzalo-duran-chimal/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </li>        
+                        </ul>        
+                    </div>
+                </div>
+
+                <form class="contacto__formulario" action="index.html" autocomplete="off" novalidate>
+                    <div class="formulario__campo campo-nombre">
+                        <input type="text" name="nombre" class="formulario__input" placeholder="Ej: Jose">
+                        <label class="formulario__label" for="">Nombre</label>
+                        <i class="formulario__estado formulario__estado-nombre fa-solid"></i>
+                        <span class="formulario__input-error formulario__nombre">*Ingrese solo letras en el nombre</span>
+                        <span class="formulario__vacio formulario__vacio-nombre">*Debes completar este campo</span>
+                    </div>
+
+                    <div class="formulario__campo campo-apellido">
+                        <input type="text" name="apellido" class="formulario__input" placeholder="Ej: Fernandez">
+                        <label class="formulario__label" for="">Apellido</label>
+                        <i class="formulario__estado formulario__estado-apellido fa-solid"></i>
+                        <span class="formulario__input-error formulario__apellido">*Ingrese solo letras en el apellido</span>
+                        <span class="formulario__vacio formulario__vacio-apellido">*Debes completar este campo</span>
+                    </div>
+
+                    <div class="formulario__campo campo-email">
+                        <input type="email" name="email" class="formulario__input" placeholder="Ej: alguien@correo.com">
+                        <label class="formulario__label" for="">Email</label>
+                        <i class="formulario__estado formulario__estado-email fa-solid"></i>
+                        <span class="formulario__input-error formulario__email">*Por favor, respeta el formato de email</span>
+                        <span class="formulario__vacio formulario__vacio-email">*Debes completar este campo</span>
+                    </div>
+
+                    <div class="formulario__campo campo-mensaje">
+                        <textarea name="mensaje" class="formulario__input formulario__textarea-input" placeholder="Ingresa aquí tu mensaje"></textarea>
+                        <label class="formulario__label formulario__textarea-label" for="">Mensaje</label>
+                        <i class="formulario__estado formulario__estado-mensaje fa-solid"></i>
+                        <span class="formulario__input-error formulario__mensaje">*Ingresa un mensaje</span>
+                        <span class="formulario__vacio formulario__vacio-mensaje">*Debes completar este campo</span>
+                    </div>
+
+                    <div class="formulario__set">
+                        <button type="submit" class="btn formulario__btn">Enviar</button>
+                        <span class="formulario__estado-valido">*Formulario enviado con éxito</span>
+                    </div>
+                </form>   
+
+            </div>    
+
+        </section>
+
+    </main>
+
+    <footer class="contenedor-seccion footer">
+        <div class="footer__contenido">
+            <p class="footer__texto">&copy <span>Gonzalo Duran Chimal</span> 2022. Todos los derechos reservados</p>    
+        </div>           
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/b545c92e40.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
