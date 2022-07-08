@@ -1,8 +1,8 @@
 :root {
     /*--- COLORES ---*/
-    --principal: #0E1630;
+    --principal: #EB4A4A;
     --secundario: rgba(255, 141, 173, 0.1);
-    --fondo: #EB4A4A;
+    --fondo: #0E1630;
     --fondoSecundario: rgba(128, 141, 173, 0.1);
     --blanco: #FFFFFF;
     --gris: #808DAD;
